@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Andra Ibrahiem</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Box icon -->
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="Hollow.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"
+        >An<span class="name">dra</span><br />
+        Ibra<span class="name">hiem</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#dudika">DUDIKA</a>
+        <a href="#activity">Activity</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Halo, Saya Andra Ibrahiem</h1>
+        <h3>Siswa Teknik <span>Komputer & Jaringan</span></h3>
+        <p>
+          Saya memiliki minat dalam bidang teknologi dan jaringan, serta
+          memiliki semangat dalam menambah wawasan akan dunia teknologi di dunia
+          kerja. Melalui kegiatan Praktik Kerja Lapangan (PKL), saya berharap
+          dapat mengembangkan dan menambah ilmu tentang teknologi dan jaringan
+          serta memahami penerapan ilmu yang telah saya pelajari di sekolah
+          dalam dunia industri yang sesungguhnya.
+        </p>
+        <div class="icon">
+          <div class="social-icons">
+            <a href="https://instagram.com/ann_3.141592"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="http://wa.me/6281584635823"
+              ><i class="bx bxl-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="foto/profile.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="on">
+      <section class="about visible" id="about">
+        <h2 class="heading">Tentang Saya</h2>
+
+        <div class="about-container">
+          <div class="about-box">
+            <div class="about-info">
+              <i class="bx bx-user-circle"></i>
+              <h4>Curriculum Vitae</h4>
+              <p>
+                Saya adalah seorang siswa yang berkomitmen tinggi terhadap
+                pembelajaran dan pengembangan diri. Memiliki sikap disiplin,
+                bertanggung jawab, dan mampu bekerja secara mandiri maupun dalam
+                tim. Saya juga terbiasa menjalankan tugas dengan teliti dan
+                penuh semangat, serta terbuka terhadap pengalaman dan tantangan
+                baru untuk meningkatkan kemampuan pribadi maupun profesional.
+              </p>
+              <a href="#about" class="btn" onclick="changeToCV()"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="soon hidden" id="soon">
+        <h2 class="heading">Soon</h2>
+        <i class="bx bx-arrow-big-left-line" onclick="backAbout()"></i>
+      </section>
+    </section>
+
+    <section class="in">
+      <section class="dudika visible" id="dudika">
+        <h2 class="heading">DUDIKA</h2>
+
+        <div class="dudika-container">
+          <div class="dudika-box" onclick="changeToProfil()">
+            <div class="dudika-info">
+              <i class="bx bx-community"></i>
+              <h4>Profil DUDIKA</h4>
+            </div>
+          </div>
+          <div class="dudika-box" onclick="changeToAlamat()">
+            <div class="dudika-info">
+              <i class="bx bx-location-check"></i>
+              <h4>Alamat DUDIKA</h4>
+            </div>
+          </div>
+          <div class="dudika-box" onclick="changeToGaleri()">
+            <div class="dudika-info">
+              <i class="bx bx-images"></i>
+              <h4>Galeri DUDIKA</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="profil hidden" id="profil">
+        <h2 class="heading">Profil Dinas Kependudukan Dan Pencatatan Sipil</h2>
+        <p>
+          Dinas Kependudukan dan Pencatatan Sipil atau Disdukcapil adalah salah
+          satu instansi pemerintah daerah yang bertanggung jawab dalam
+          penyelenggaraan urusan pemerintahan di bidang administrasi
+          kependudukan dan pencatatan sipil. Instansi ini berada di bawah
+          naungan Kementerian Dalam Negeri dan memiliki peran penting dalam
+          mendata serta melayani masyarakat secara administratif. Disdukcapil
+          melayani berbagai kebutuhan masyarakat, seperti penerbitan Kartu Tanda
+          Penduduk (KTP), Kartu Keluarga (KK), Akta Kelahiran, Akta Kematian,
+          Akta Perkawinan, Akta Perceraian, hingga surat pindah domisili.
+          Layanan tersebut dilakukan dengan prinsip cepat, tepat, transparan,
+          dan bertanggung jawab untuk memastikan seluruh penduduk memiliki
+          dokumen resmi yang sah secara hukum.
+        </p>
+        <i class="bx bx-arrow-big-left-line" onclick="backDudika()"></i>
+      </section>
+
+      <section class="alamat hidden" id="alamat">
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.172499407637!2d115.26614167351208!3d-2.7652503390281242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de50b277f7555f3%3A0xdb77c4662a2a169!2sDinas%20kependudukan%20dan%20pencatatan%20sipil%20kandangan!5e0!3m2!1sid!2sid!4v1750756563373!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <div class="address">
+            <h2 class="heading">Alamat DUDIKA</h2>
+
+            <h4>Kantor Dinas Kependudukan dan Pencatatan Sipil berada pada</h4>
+            <p>
+              Gambah Luar Muka, Kec. Kandangan, Kabupaten Hulu Sungai Selatan,
+              Kalimantan Selatan 71215
+            </p>
+          </div>
+        </div>
+
+        <i class="bx bx-arrow-big-left-line" onclick="backDudika()"></i>
+      </section>
+
+      <section class="galeri hidden" id="galeri">
+        <h2 class="heading">Soon</h2>
+        <i class="bx bx-arrow-big-left-line" onclick="backDudika()"></i>
+      </section>
+    </section>
+
+    <section class="activity" id="activity">
+      <div class="activity-logo">
+        <div class="activity-icon">
+          <h2 class="heading">Activity</h2>
+          <i class="bxr bx-calendar-alt-2"></i>
+        </div>
+      </div>
+
+      <div class="activity-content">
+        <div class="activity-box">
+          <h4>Juli</h4>
+          <a href="https://docs.google.com/document/d/100Wa3YwpbeMvnsQH9aitWMTRwsu5OJw0/edit?usp=sharing&ouid=116965163080792804157&rtpof=true&sd=true"><img src="foto/icon.png" /></a>
+        </div>
+        <div class="activity-box">
+          <h4>Agustus</h4>
+          <a href="https://docs.google.com/document/d/100Wa3YwpbeMvnsQH9aitWMTRwsu5OJw0/edit?usp=sharing&ouid=116965163080792804157&rtpof=true&sd=true"><img src="foto/icon.png" /></a>
+        </div>
+        <div class="activity-box">
+          <h4>September</h4>
+          <a href="https://docs.google.com/document/d/100Wa3YwpbeMvnsQH9aitWMTRwsu5OJw0/edit?usp=sharing&ouid=116965163080792804157&rtpof=true&sd=true"><img src="foto/icon.png" /></a>
+        </div>
+      </div>
+    </section>
+
+    <script src="Wildfire.js"></script>
+  </body>
+</html>
